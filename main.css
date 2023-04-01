@@ -313,15 +313,13 @@ display: none;
 }
 
 
-@media  (max-width: 600px) {
+@media  (max-width: 734px) {
 
     body {
         overflow-x: clip;
     }
     #app {
-        background-image: url('img/bg.png');
-        background-repeat: no-repeat;
-        background-size: cover;
+
         padding: 0;
         margin: 0;
 
@@ -366,14 +364,18 @@ margin-right: 11px;
     .main {
         flex-direction: column;
         position: relative;
-        margin-top: 31px;
+        margin-top: 0px;
         padding: 15px;
+
+        background-image: url('img/bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .main-text {
         margin-bottom: 45px;
         max-width: 300px;
-
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -496,6 +498,7 @@ display: none;
     background-color: black;
     width: 100vw;
     padding: 15px;
+    margin-top: 0;
 
 }
 
